@@ -1,6 +1,14 @@
-# Middleman::Foundation::Navigation
+# Middleman Foundation Navigation
 
-TODO: Write a gem description
+[![Gem Version](https://badge.fury.io/rb/middleman-foundation-navigation.png)](http://badge.fury.io/rb/middleman-foundation-navigation)
+[![Build Status](https://secure.travis-ci.org/kpricorn/middleman-foundation-navigation.png)](http://travis-ci.org/kpricorn/middleman-foundation-navigation)
+[![Dependency Status](https://gemnasium.com/kpricorn/middleman-foundation-navigation.png)](https://gemnasium.com/kpricorn/middleman-foundation-navigation)
+[![Code Climate](https://codeclimate.com/github/kpricorn/middleman-foundation-navigation.png)](https://codeclimate.com/github/kpricorn/middleman-foundation-navigation)
+
+Helpers to generate a Foundation 4 Navigation markup.
+
+This plugin is inspired by
+[middleman-bootstrap-navbar](https://github.com/krautcomputing/middleman-bootstrap-navbar).
 
 ## Installation
 
@@ -18,7 +26,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Activate the extensions in `config.rb` in your Middleman app:
+
+```ruby
+activate :foundation_navigation
+```
+
+The gem
+[foundation-navigation](https://github.com/kpricorn/foundation-navigation)
+is used to generate the HTML. Please refer to the
+[README](https://github.com/kpricorn/foundation-navigation#usage) of
+that gem for detailed instructions on how to generate the navbar.
 
 ## Contributing
 
