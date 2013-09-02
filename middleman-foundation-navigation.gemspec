@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  #spec.add_runtime_dependency 'foundation-navigation', :github => 'kpricorn/foundation-navigation', :branch => 'master'
   spec.add_runtime_dependency "middleman-core", ">= 3.1.0"
   spec.add_runtime_dependency "foundation-navigation"
 end
