@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'middleman/foundation/navigation/version'
+require 'middleman-foundation-navigation/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "middleman-foundation-navigation"
-  spec.version       = Middleman::Foundation::Navigation::VERSION
+  spec.version       = MiddlemanFoundationNavigation::VERSION
   spec.authors       = ["Sebastian de Castelberg"]
   spec.email         = ["sebu@kpricorn.org"]
   spec.description   = %q{Middleman extension for foundation-navigation}
