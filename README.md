@@ -5,7 +5,8 @@
 [![Dependency Status](https://gemnasium.com/kpricorn/middleman-foundation-navigation.png)](https://gemnasium.com/kpricorn/middleman-foundation-navigation)
 [![Code Climate](https://codeclimate.com/github/kpricorn/middleman-foundation-navigation.png)](https://codeclimate.com/github/kpricorn/middleman-foundation-navigation)
 
-Helpers to generate a Foundation 4 Navigation markup.
+Helpers to generate a Foundation 4 Navigation markup with 
+[foundation-navigation](https://github.com/kpricorn/foundation-navigation).
 
 This plugin is inspired by
 [middleman-bootstrap-navbar](https://github.com/krautcomputing/middleman-bootstrap-navbar).
